@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Gladius</title>
+</head>
+<body>
+    <h1>Welcome to Gladius</h1>
+    <p>Your AI-powered learning assistant for self-taught developers.</p>
+
+    <li><a href="{{ url_for('main.register' )}}">sign up</a></li>
+    <li><a href="{{ url_for('main.login') }}">sign in</a></li>
+    <h5>HyperLinks</h5>
+    <ol>
+        <a href="#"><li>career/studies</li></a>
+        <a href="#"><li>personal_development</li></a>
+        <a href="#"><li>work</li></a>
+    </ol>
+
+    <a href="{{ url_for('main.dashboard') }}">Dashboard</a>
+</body>
+</html>
